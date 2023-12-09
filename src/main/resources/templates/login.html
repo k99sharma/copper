@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Copper | Login</title>
+	</head>
+	
+	<body>
+		<div>
+			<h1>Login Form</h1>
+		</div>
+		
+		<div>
+			<form autocomplete="off" method="POST" action="/login">
+				<div>
+					<label id="username">Username</label><br />
+					<input type="text" for="username" placeholder="Enter Username" required />
+				</div>
+				<br />
+				<div>
+					<label id="password">Password</label><br />
+					<input type="password" for="password" placeholder="Enter Password" required />
+				</div>
+				<br />
+				<div>
+					<button type="submit">Login</button>
+				</div>
+			</form>
+		</div>
+		
+		<br/>
+		
+		<div>
+			Don't have an account?
+			<a href="/signup">Register</a>
+		</div>
+	</body>
+</html>

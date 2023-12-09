@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Copper | Register</title>
+	</head>
+	
+	<body>
+		<div>
+			<h1>Create an account</h1>
+		</div>
+		
+		<div>
+			<form autocomplete="off" method="POST" action="/signup">
+				<div>
+					<label id="firstName">First Name</label><br />
+					<input type="text" for="firstName" placeholder="Enter first name" required />
+				</div>
+				<br />
+				<div>
+					<label id="lastName">Last Name</label><br />
+					<input type="text" for="lastName" placeholder="Enter last name" required />
+				</div>
+				<br />
+				<div>
+					<label id="username">Username</label><br />
+					<input type="text" for="username" placeholder="Enter username" required />
+				</div>
+				<br />
+				<div>
+					<label id="password">Password</label><br />
+					<input type="password" for="password" placeholder="Enter password" required />
+				</div>
+				<br />
+				<div>
+					<label id="retype-password">Re-type Password</label><br />
+					<input type="password" for="retype-password" placeholder="Enter re-type password" required />
+				</div>
+				<br />
+				<div>
+					<button type="submit">Signup</button>
+				</div>
+			</form>
+		</div>
+		<br />
+		<div>
+			Already got an account?
+			<a href="/login">Login</a>
+		</div>
+	</body>
+</html>
